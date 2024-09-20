@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'myFont';
+    src: url(font.ttf);
+}
+
+#nav-active {
+    color: rgb(169, 68, 232);
+    font-weight: 600;
+}
+
+.nav-link {
+    font-family: sans-serif;
+    color: gray;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+.button-purple-moon {
+    background: linear-gradient(to left, #9669bc, #5510c5);
+    color: white;
+    text-transform: uppercase;
+    border: solid white;
+    font-size: 12px;
+    padding: 8px 30px;
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    border: solid white;
+    padding: 8px 12px;
+    font-size: 12px;
+    margin: 15px;
+}
+
+.para {
+    font-weight: 500;
+    color: rgb(176, 172, 172);
+}
+
+/* Banner */
+.bg-img {
+    background-image: url('/Images/Banner.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-img h2 {
+    margin-left: 100px;
+    margin-top: 170px;
+}
+
+.bg-img p {
+    margin-left: 100px;
+}
+
+.bg-img .btn1 {
+    margin-left: 100px;
+}
+
+.btn1 {
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.btn2 {
+    margin: 30px;
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(169, 68, 232);
+}
+
+/* Drop & Drag */
+.bg-drop {
+    background: linear-gradient(to left, #8f45cb, #5510c5);
+}
+
+/* Feature */
+.features {
+    margin-inline: 20px;
+    margin-block: 40px;
+}
+
+.img-f1 {
+    height: 40px;
+    width: 50px;
+    margin: 10px;
+    position: relative;
+    left: 140px;
+}
+
+/* Customers */
+.main {
+    position: relative;
+    height: 58vh;
+
+}
+
+.customers {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    position: absolute;
+    left: 120px;
+    top: -65px;
+}
+
+.card-shadow {
+    box-shadow: 0 10px 8px 2px rgba(117, 112, 112, 0.1);
+}
+
+.customers-text {
+    position: relative;
+    top: 40px;
+    font-size: medium;
+    left: 8px;
+}
+
+.star {
+    position: relative;
+    top: 35px;
+    left: 30px;
+}
+
+i {
+    position: relative;
+    left: -200px;
+    bottom: -50px;
+}
+
+.lorem {
+    position: relative;
+    /* left: 30px; */
+    bottom: -55px;
+    font-weight: 400;
+}
+
+/* Newsletter */
+.news {
+    position: relative;
+    height: 60vh;
+}
+
+.hr1 {
+    color: white;
+    width: 30px;
+    position: absolute;
+    left: 650px;
+    top: 70px;
+}
+
+.news h2 {
+    width: 42vw;
+    position: absolute;
+    left: 350px;
+    top: 70px;
+}
+
+.letter {
+    color: rgb(214, 211, 211);
+    width: 42vw;
+    position: absolute;
+    left: 350px;
+    top: 170px;
+}
+
+form {
+    position: absolute;
+    top: 200px;
+}
+
+input {
+    border: 2px solid rgb(170, 167, 167);
+    width: 30vw;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+form {
+    position: relative;
+    left: 300px;
+}
+
+/* Showcase */
+.btn-circle {
+    width: 15px;
+    height: 15px;
+    margin: 4px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    background-color: rgb(185, 185, 185);
+}
+
+/* Email */
+.bg-mail {
+    background-color: rgb(252, 247, 247);
+}
+
+.bg-mail .img1 {
+    margin-left: 15rem;
+    width: 30vw;
+    height: 35vh;
+
+}
+.bg-mail .img2 {
+    margin: 2px;
+    color: #5510c5;
+    height: 20px;
+}
+
+/* Checkout */
+.img1 {
+    margin-right: 15rem;
+    width: 30vw;
+    height: 35vh;
+}
+
+/* Footer */
+.gray {
+    color: rgb(136, 133, 133);
+
+}
+
+footer img {
+    height: 15px;
+    /* margin: 4px; */
+
+}
+
+footer {
+    color: rgb(115, 115, 115);
+    font-weight: 500;
+
+}
